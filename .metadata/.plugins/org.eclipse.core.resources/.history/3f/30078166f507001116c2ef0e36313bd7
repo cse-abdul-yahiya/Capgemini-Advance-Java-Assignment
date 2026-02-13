@@ -1,0 +1,15 @@
+/**
+ * 
+ */
+package com.capgemini.hibernate.Library_Book_Inventory_Management_System;
+
+/**
+ * 
+ */
+public class LibraryBookJpaApp {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

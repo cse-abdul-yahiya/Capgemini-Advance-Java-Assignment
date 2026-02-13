@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package com.capgemini.hibernate.HibernateDemo;
+
+/**
+ * 
+ */
+public class Customer {
+
+}
