@@ -22,6 +22,7 @@ public class App {
         EntityManager em = emf.createEntityManager();
 
         try {
+        	
 
             User user = new User();
             user.setUsername("John");

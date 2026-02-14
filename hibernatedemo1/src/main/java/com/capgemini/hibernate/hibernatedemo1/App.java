@@ -31,7 +31,7 @@ public class App {
             // Begin transaction
             tx = session.beginTransaction();
 
-            // ================= CREATE =================
+            // CREATE 
             Customer newCustomer = new Customer();
             newCustomer.setId(11);
             newCustomer.setName("Alice Johnson");
@@ -40,7 +40,7 @@ public class App {
             session.save(newCustomer);
             System.out.println("Inserted: " + newCustomer.getName());
 
-            // ================= READ =================
+            // READ
             Customer foundCustomer =
                     session.get(Customer.class, 5);
 
@@ -51,7 +51,7 @@ public class App {
                         foundCustomer.getCity());
             }
 
-            // ================= UPDATE =================
+            // UPDATE 
             if (foundCustomer != null) {
 
                 foundCustomer.setCity("Delhi");
@@ -60,7 +60,7 @@ public class App {
                 System.out.println("Updated Customer ID 5");
             }
 
-            // ================= DELETE =================
+            // DELETE 
             Customer deleteCustomer =
                     session.get(Customer.class, 3);
 
