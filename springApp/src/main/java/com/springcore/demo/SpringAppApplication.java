@@ -15,8 +15,8 @@ public class SpringAppApplication {
 //		Car car2 = context.getBean(Car.class);
 //		System.out.println(car1);
 //		System.out.println(car2);
+//		Vehicle vehicle =  context.getBean(Vehicle.class);
 		Vehicle vehicle = context.getBean("car", Vehicle.class);
-		
 		vehicle.run();
 	}
 

@@ -20,4 +20,11 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.capgemini.Department_and_student_Bidirectional_manyToOne.Department"/>
     <fullyQualifiedTypeName name="com.capgemini.Department_and_student_Bidirectional_manyToOne.Student"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.springcore.demo.Vehicle"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="com.springcore.payment.Payment"/>
 </qualifiedTypeNameHistroy>
